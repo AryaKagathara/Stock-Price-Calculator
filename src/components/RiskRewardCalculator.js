@@ -32,7 +32,7 @@ function RiskRewardCalculator() {
       const simplifiedRisk = risk / divisor;
       const simplifiedReward = reward / divisor;
 
-      riskRewardRatio = `${simplifiedReward}:${simplifiedRisk}`;
+      riskRewardRatio = `${simplifiedRisk}:${simplifiedReward}`;
     } else {
       riskRewardRatio = "0:0";
     }

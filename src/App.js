@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-route
 import RiskRewardCalculator from './components/RiskRewardCalculator';
 import PricePercentageCalculator from './components/PricePercentageCalculator';
 import PercentageDifferenceCalculator from './components/PercentageDifferenceCalculator';
+import Default from './components/default';
 import './App.css';
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
           <Route path="/risk-reward" element={<RiskRewardCalculator />} />
           <Route path="/price-percentage" element={<PricePercentageCalculator />} />
           <Route path="/percentage-difference" element={<PercentageDifferenceCalculator />} />
-          <Route path="/" element={<h1>Welcome to the Calculator App</h1>} />
+          <Route path="/" element={<Default />} />
         </Routes>
       </div>
     </div>
